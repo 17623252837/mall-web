@@ -55,6 +55,42 @@
       <recent name="E:\github\mall-web" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="RBAC-WEB-VUE-阿里云" type="docker-deploy" factoryName="dockerfile" server-name="阿里云">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="RBAC-ADMIN-WEB" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="1.0.0" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="80" />
+                <option name="hostPort" value="1111" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="mall-web-vue/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -65,7 +101,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588995378057</updated>
-      <workItem from="1588995379619" duration="4068000" />
+      <workItem from="1588995379619" duration="6664000" />
+      <workItem from="1589273594676" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1588998935272</created>
@@ -74,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588998935272</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1589003212190</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589003212190</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,13 +131,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="138" key="CommitChangelistDialog2" timestamp="1588998934455">
+    <state x="552" y="198" key="#Docker" timestamp="1589006247888">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="138" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1588998934455" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1588998936705">
+    <state x="552" y="198" key="#Docker/0.0.1920.1080@0.0.1920.1080" timestamp="1589006247888" />
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589007526626">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1588998936705" />
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589007526626" />
+    <state x="560" y="138" key="CommitChangelistDialog2" timestamp="1589003211616">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="138" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1589003211616" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1589003213787">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1589003213787" />
+    <state x="701" y="281" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1589006345308">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="701" y="281" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize/0.0.1920.1080@0.0.1920.1080" timestamp="1589006345308" />
   </component>
 </project>
